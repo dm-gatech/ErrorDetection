@@ -28,8 +28,3 @@ def low_rank_approximation(A, c):
     
     return u_k, s_k, v_k;
 
-
-A = np.random.randint(5, size=(100, 400000))
-(u_k, s_k, v_k) = low_rank_approximation(A, 10)
-print(s_k)
-
